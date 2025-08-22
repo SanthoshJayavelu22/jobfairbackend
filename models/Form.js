@@ -6,7 +6,7 @@ const formSchema = new mongoose.Schema({
     type: String,
     unique: true,
     uppercase: true,
-    index: true
+    
   },
   name: {
     type: String,
